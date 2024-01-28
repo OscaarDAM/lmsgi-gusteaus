@@ -10,24 +10,24 @@
     font-size: 16px;
 }
 
+#contenedor div.encabezado img.logo {
+    /* SEGON ISSUE */
+    background-image: url("../imgs/logo.png");
+    height: 50px;
+    width: auto;
+    margin-right: 800px;
+}
+
 div.encabezado {
     /* PRIMER ISSUE */
-    background-image:url("../imgs/guesteaus.png");
+    background-image: url("../imgs/guesteaus.png");
     color: #5a3e36;
     font-family: 'Georgia', serif;
     font-size: 36px;
     text-align: center;
     height: 200px;
     background-position: 80% 200%;
-    
-}
 
-#contenedor div.encabezado img.logo {
-    background-image:url("../imgs/logo.png");
-    height: 50px;
-    width: auto;
-    margin-right: 250px;
-    background-position: 80% 200%;
 }
 
 div.menu ul li a {
@@ -36,8 +36,20 @@ div.menu ul li a {
     color: #ffffff;
     font-family: 'Helvetica', sans-serif;
     font-size: 18px;
+    
+}
+
+div.menu ul li {
+    /* TECER ISSUE */
+    display: inline-block;
+}
+
+div.menu li a:hover,
+div.menu li.active a {
+    /* TECER ISSUE */
     transition: background-color 0.3s ease;
-    background-color: #8b6f47;
+    background-color: #5a3e36;
+    border-bottom: 2.5px solid #610e0e;
 }
 
 div.contenido {
@@ -46,6 +58,7 @@ div.contenido {
     color: #5a3e36;
     font-family: 'Georgia', serif;
     font-size: 18px;
+
 }
 
 div.sidebar {
