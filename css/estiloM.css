@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5a3e36;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Hace que los elementos de la lista se muestren en línea */
+}
+
+nav li {
+    margin-right: 20px; /* Espaciado entre elementos de la lista */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Efecto de subrayado al pasar el mouse */
+}
+
+.menu-estrella h2 {
+    color: #5a3e36;
+    border-bottom: 2px solid #5a3e36;
+}
+
+.menu-estrella ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-estrella li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-estrella li[data-alergenos] {
+    position: relative;
+}
+
+.menu-estrella li[data-alergenos]::before {
+    content: "⚠️";
+    color: #d9534f;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 16px;
+}
+
+.menu-estrella li[data-alergenos*=" "]:hover {
+    background-color: #f5f5f5;
+}
+
+.menu-estrella li:hover {
+    background-color: #f5f5f5;
+}
+
+.menu-estrella li[data-alergenos*="nueces"] {
+    border-left: 5px solid #8a6d3b;
+}
+
+.menu-estrella li[data-alergenos*="mariscos"] {
+    border-left: 5px solid #31708f;
+}
