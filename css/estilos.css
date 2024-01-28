@@ -10,6 +10,13 @@
     font-size: 16px;
 }
 
+#contenedor::after {
+    /* CUARTO ISSUE */
+    content: "";
+    display: table;
+    clear: both;
+}
+
 #contenedor div.encabezado img.logo {
     /* SEGON ISSUE */
     background-image: url("../imgs/logo.png");
@@ -67,6 +74,14 @@ div.sidebar {
     color: #5a3e36;
     font-family: 'Georgia', serif;
     font-size: 18px;
+
+    /* CUARTO ISSUE */
+    float: left;
+    width: 70%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+
 }
 
 div.pie {
