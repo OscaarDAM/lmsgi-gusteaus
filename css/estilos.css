@@ -4,12 +4,14 @@
 }
 
 #contenedor {
+    /* PRIMER ISSUE */
     background-color: #fff8f0;
     font-family: 'Times New Roman', serif;
     font-size: 16px;
 }
 
 div.encabezado {
+    /* PRIMER ISSUE */
     background-image:url("../imgs/guesteaus.png");
     color: #5a3e36;
     font-family: 'Georgia', serif;
@@ -17,38 +19,49 @@ div.encabezado {
     text-align: center;
     height: 200px;
     background-position: 80% 200%;
+    
 }
 
-.menu ul li a {
+#contenedor div.encabezado img.logo {
+    background-image:url("../imgs/logo.png");
+    height: 50px;
+    width: auto;
+    margin-right: 250px;
+    background-position: 80% 200%;
+}
+
+div.menu ul li a {
+    /* PRIMER ISSUE */
     background-color: #a77e58;
     color: #ffffff;
     font-family: 'Helvetica', sans-serif;
     font-size: 18px;
     transition: background-color 0.3s ease;
-}
-
-.menu ul li a:hover {
     background-color: #8b6f47;
 }
 
-.contenido {
+div.contenido {
+    /* PRIMER ISSUE */
     background-color: #fff8f0;
     color: #5a3e36;
     font-family: 'Georgia', serif;
     font-size: 18px;
 }
 
-.sidebar {
+div.sidebar {
+    /* PRIMER ISSUE */
     background-color: #ecdcc6;
     color: #5a3e36;
     font-family: 'Georgia', serif;
     font-size: 18px;
 }
 
-.pie {
-    background-color: #a77e58;
-    color: #ffffff;
+div.pie {
+    /* PRIMER ISSUE */
+    background-color: #5a3e36;
+    color: #ecdcc6;
     font-family: 'Helvetica', sans-serif;
     font-size: 16px;
     text-align: center;
+
 }
