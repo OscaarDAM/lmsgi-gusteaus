@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 1px;
+    padding: 1px;
 }
 
 #contenedor {
@@ -65,8 +65,55 @@ div.contenido {
     color: #5a3e36;
     font-family: 'Georgia', serif;
     font-size: 18px;
+    width: 70%;
 
 }
+
+#reserva-form {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+input[type='number'],
+input[type='date'],
+input[type='time'],
+
+textarea {
+    border: 1px solid #a77e58;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff8f0;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+input[type='submit'] {
+    display: block;
+    background-color: #5a3e36;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type='submit']:hover {
+    background-color: #a77e58;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
 
 div.sidebar {
     /* PRIMER ISSUE */
@@ -76,10 +123,10 @@ div.sidebar {
     font-size: 18px;
 
     /* CUARTO ISSUE */
-    float: left;
-    width: 70%;
+    float: right;
+    width: 30%;
     padding: 20px;
-    margin: 20px;
+    margin-right: 20px;
     border-radius: 10px;
 
 }
